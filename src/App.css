@@ -1,12 +1,2 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
-
-.app {
-  padding-top: 60px; /* hauteur du header */
-  padding-bottom: 40px; /* hauteur du footer */
-}
+#root{max-width:1280px;margin:0 auto;padding:2rem;text-align:center}
+.app{padding-top:60px;padding-bottom:40px}
