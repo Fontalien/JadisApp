@@ -1,17 +1,14 @@
 import { Request, Response, Router } from "express";
 import { Book } from "../models/books.model";
 import path from "node:path";
-import { json } from "node:stream/consumers";
 import { parse, serialize } from "../utils/json.utils";
 import { isBook } from "../utils/books.utils";
 import { isNumberObject, isStringObject } from "node:util/types";
+import { isAdmin } from "../utils/utils.utils";
 import { Users } from "../models/users.model";
-import { UserRole } from "../models/users.model";
-import { isAnId } from "../utils/users.utils";
-import { isAdmin } from "../services/loans.service";
 
 const jsonBooksPath = path.join(__dirname, "../../data/book.json");
-const jsonUsersPath = path.join(__dirname, "../../data/users.json");
+const jsonUsersPath = path.join(__dirname, "../../data/user.json");
 
 export const booksController = Router();
 

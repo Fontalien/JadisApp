@@ -1,0 +1,1 @@
+[{"id":0,"username":"Jadis","password":"123","email":"Jean.pomme@gmail.com","role":"admin","createdAt":"2023-10-01T10:15:30Z","messages":[]},{"id":1,"username":"Marie Orange","password":"securepass456","email":"Marie.orange@gmail.com","role":"user","createdAt":"2023-10-02T11:20:40Z","messages":[]}]
